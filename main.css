@@ -13,11 +13,11 @@ div img{
     width: 5%;
     position: absolute;
     top: 60%;
-    left: 60%;
-    transform: rotate(270deg);
+    left: 32%;
+    transform: rotate(90deg);
 }
 .blade{
-    height: 1.5%;
+    height: 10px;
     background-color: #FF8C00;
     width: 22%;
     position: absolute;
@@ -26,9 +26,9 @@ div img{
     z-index: -1;
 }
 .glow{
-    height: 4%;
+    height: 20px;
     background-color: #FF8C00;
-    width: 22%;
+    width: 24%;
     position: absolute;
     left: 37%;
     top: 68%;
@@ -50,4 +50,25 @@ div img{
     80%  {opacity: 0.8;}
     90%  {opacity: 0.9;}
     100% {opacity: 1;}
+}
+@media(max-width: 450px){
+    div img{
+        width: 20%;
+        position: absolute;
+        top: 65%;
+        left: 40%;
+        transform: rotate(0deg);
+    }
+    .blade{
+        transform: rotate(90deg);
+        width: 60%;
+        top: 52%;
+        left: 20%;
+    }
+    .glow{
+        transform: rotate(90deg);
+        width: 65%;
+        top: 50%;
+        left: 17.5%;
+    }
 }
