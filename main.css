@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    text-align: center;
+    color: #FF8C00;
+}
+div h1{
+    margin-top: 20%;
+}
+div img{
+    width: 5%;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: rotate(270deg);
+}
+.blade{
+    height: 1.5%;
+    background-color: #FF8C00;
+    width: 275px;
+    position: absolute;
+    left: 38%;
+    top: 69.5%;
+    z-index: -1;
+}
+.glow{
+    height: 4%;
+    background-color: #FF8C00;
+    width: 280px;
+    position: absolute;
+    left: 37%;
+    top: 68%;
+    z-index: -2;
+    filter: blur(10px);
+    animation-name: glowAni;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes glowAni{
+    0%   {opacity: 1;}
+    10%  {opacity: 0.9;}
+    20%  {opacity: 0.8;}
+    30%  {opacity: 0.7;}
+    40%  {opacity: 0.6;}
+    50%  {opacity: 0.5;}
+    60%  {opacity: 0.6;}
+    70%  {opacity: 0.7;}
+    80%  {opacity: 0.8;}
+    90%  {opacity: 0.9;}
+    100% {opacity: 1;}
+}

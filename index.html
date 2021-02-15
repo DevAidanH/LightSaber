@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Orange Light Saber</title>
+        <meta charset="utf-8"/>
+        <meta author="Aidan Humpidge"/>
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1>CSS Lightsaber<br/>Click to start!</h1>
+            <img onclick="toggleSaber()" src="handle.png" alt="Light saber handle"/>
+            <div id="blade"></div>
+            <div id="glow"></div>
+        </div>
+
+        <script>
+            function toggleSaber(){
+                var element1 = document.getElementById("blade");
+                element1.classList.toggle("blade");
+                var element2 = document.getElementById("glow");
+                element2.classList.toggle("glow");
+            }
+        </script>
+    </body>
+</html>
