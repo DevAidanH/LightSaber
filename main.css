@@ -19,16 +19,16 @@ div img{
 .blade{
     height: 1.5%;
     background-color: #FF8C00;
-    width: 275px;
+    width: 22%;
     position: absolute;
     left: 38%;
-    top: 69.5%;
+    top: 69%;
     z-index: -1;
 }
 .glow{
     height: 4%;
     background-color: #FF8C00;
-    width: 280px;
+    width: 22%;
     position: absolute;
     left: 37%;
     top: 68%;
